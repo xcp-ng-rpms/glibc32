@@ -2,7 +2,7 @@
 Summary: The GNU libc 32-bit libraries.
 Name: glibc32
 Version: 2.17
-Release: 106.el7_2.4.1%dist
+Release: 106.el7_2.4.2%dist
 License: LGPL
 # 32 bit binaries are extracted from the build RPMs directly
 # The RPMs come from CentOS
