@@ -6,6 +6,9 @@ Release: 106.el7_2.4.2%dist
 License: LGPL
 # 32 bit binaries are extracted from the build RPMs directly
 # The RPMs come from CentOS
+# Version of glibc must match that of glibc in XCP-ng
+# Version of nss-softokn-freebl must match that of the 64-bit build-dep
+# (if there's one, else the version from the appropriate release of CentOS)
 Source0: glibc-2.17-106.el7_2.4.i686.rpm
 Source1: glibc-devel-2.17-106.el7_2.4.i686.rpm
 Source2: glibc-static-2.17-106.el7_2.4.i686.rpm
