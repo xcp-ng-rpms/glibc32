@@ -2,17 +2,17 @@
 Summary: The GNU libc 32-bit libraries.
 Name: glibc32
 Version: 2.17
-Release: 106.el7_2.4.2%dist
+Release: 222.el7%dist
 License: LGPL
 # 32 bit binaries are extracted from the build RPMs directly
 # The RPMs come from CentOS
 # Version of glibc must match that of glibc in XCP-ng
 # Version of nss-softokn-freebl must match that of the 64-bit build-dep
 # (if there's one, else the version from the appropriate release of CentOS)
-Source0: glibc-2.17-106.el7_2.4.i686.rpm
-Source1: glibc-devel-2.17-106.el7_2.4.i686.rpm
-Source2: glibc-static-2.17-106.el7_2.4.i686.rpm
-Source3: nss-softokn-freebl-3.16.2.3-13.el7_1.i686.rpm
+Source0: glibc-2.17-222.el7.i686.rpm
+Source1: glibc-devel-2.17-222.el7.i686.rpm
+Source2: glibc-static-2.17-222.el7.i686.rpm
+Source3: nss-softokn-freebl-3.36.0-5.el7_5.i686.rpm
 ExclusiveArch: x86_64
 
 BuildRequires: cpio
