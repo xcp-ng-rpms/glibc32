@@ -22,6 +22,8 @@ BuildRequires: genisoimage
 i686 libs for building x86_64 packages:
 glibc, glibc-devel, glibc-static and nss-softokn-freebl
 
+%prep
+
 %build
 rpm2cpio %{SOURCE0} | cpio -idmv
 rpm2cpio %{SOURCE1} | cpio -idmv
