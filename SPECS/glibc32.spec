@@ -49,7 +49,7 @@ cp -a * %{buildroot}/
 %exclude /var/*
 
 %changelog
-Fri Dec 20 2019 Samuel Verschelde <stormi-xcp@ylix.fr> - 2.17-222.el7
+* Fri Dec 20 2019 Samuel Verschelde <stormi-xcp@ylix.fr> - 2.17-222.el7
 - Rebuild for XCP-ng 8.1
 - No changes
 - Kept same revision number to match that of glibc
